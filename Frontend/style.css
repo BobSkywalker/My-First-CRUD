@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 100%;
+  height: 100vw;
+}
+.card {
+  border: 3px solid black;
+  width: 480px;
+  height: 280px;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #007FFF;
+  box-shadow: 1px 1px 10px black;
+  box-sizing: border-box;
+}
+.card h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+}
+.card p {
+  margin-top: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+.container {
+  width: 550px;
+  height: 600px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  gap: 10px;
+  padding: 5px;
+  margin-bottom: 100px;
+  margin: auto;
+  margin-top: 50px;
+}
+.cardPrioridade {
+  color: red;
+  margin-left: 5px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header h1 {
+  background-color: aquamarine;
+  padding: 10px;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 1px 1px 10px black;
+}
+header {
+  margin-bottom: 20px;
+}
+.inputs {
+  display: flex;
+  flex-direction: column;
+  background-color: #7CB9E8;
+  border-radius: 20px;
+  padding: 20px;
+  width: 340px;
+  height: 400px;
+  margin: auto;
+  gap: 10px;
+}
+.deletar{
+  padding: 2px;
+  margin: 5px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.editar{
+  padding: 2px;
+  margin: 5px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.editar:hover{
+  background-color: yellow;
+}
+.deletar:hover{
+  background-color: red;
+}
+.main{
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+.inputs > .data {
+  font-weight: bold;
+  margin: 5px;
+  width: 120px;
+  background: transparent;
+  margin: auto;
+  border-radius: 10px;
+  padding: 3px;
+}
+.inputs > .texto {
+  margin: 5px;
+  width: 190px;
+  font-weight: bold;
+  border-radius: 10px;
+  margin: auto;
+  background: transparent;
+  padding: 4px;
+}
+.inputs > .prioridade {
+  margin: 5px;
+  font-weight: bold;
+  margin: auto;
+  width: 120px;
+  border-radius: 10px;
+  background: transparent;
+  padding: 3px;
+}
+.inputs > .botao {
+  margin: 5px;
+  width: 120px;
+  margin: auto;
+  border-radius: 10px;
+  padding: 3px;
+  background-color: rgb(245, 245, 238);
+  color: black;
+  font-weight: bolder;
+  transition: 0.5s;
+}
+.botao:hover {
+  background-color: chartreuse;
+  transition: 0.5s;
+}
+.inputs > .descricao02 {
+  margin: 5px;
+  margin: auto;
+  font-weight: bold;
+  width: 200px;
+  background: transparent;
+  height: 130px;
+  border-radius: 10px;
+  padding: 3px;
+  resize: none;
+}
+.cardPrincipal {
+  display: flex;
+  justify-content: space-between;
+}
+.cardPrincipal02 {
+  display: flex;
+  gap: 10px;
+}
+.cardData {
+  font-size: large;
+  margin-right: 5px;
+}
+.cardPrioridade {
+  color: red;
+  text-transform: capitalize;
+}
+p.cardDescricao{
+  font-family: Arial, Helvetica, sans-serif;
+  word-break: break-all;
+  font-size: 15pt;
+}
+.Checkbox{
+  height: 30px;
+  width: 20px;
+}

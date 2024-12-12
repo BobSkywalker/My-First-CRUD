@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Backend falso</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script2.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>To-Do List</h1>
+    </header>
+    <main>
+      <section>
+        <form action="" id="forme" class="inputs">
+          <input type="text" class="texto" placeholder="Titulo" id="titulo" />
+          <textarea
+            name="descricao"
+            class="descricao02"
+            placeholder="Descrição"
+            id="descricao"
+          ></textarea>
+          <input type="date" name="data" class="data" id="data" />
+          <select name="prioridade" class="prioridade" id="prioridade">
+            <option value="vazio"></option>
+            <option value="alta">Alta</option>
+            <option value="media">Media</option>
+            <option value="baixa">Baixa</option>
+          </select>
+          <input type="submit" value="Submit" class="botao" id="botao" />
+        </form>
+      </section>
+      <section class="container" id="container"></section>
+    </main>
+  </body>
+</html>
